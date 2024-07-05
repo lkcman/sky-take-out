@@ -75,12 +75,12 @@ public class EmployeeController {
 
 
 
-//    public static void main(String[] args) {
-//        String password = "123456";
-//        byte[] bytes = password.getBytes();
-//        String encrypted=DigestUtils.md5DigestAsHex(bytes);
-//        System.out.println("encrypted:"+encrypted);
-//
-//    }
+    public static void main(String[] args) {
+        String password = "123456";
+        byte[] bytes = password.getBytes();
+        String encrypted=DigestUtils.md5DigestAsHex(bytes);
+        System.out.println("encrypted:"+encrypted);
+
+    }
 }
 
