@@ -56,4 +56,9 @@ public class EmployeeServiceImpl implements EmployeeService {
         return employee;
     }
 
+//    public static void main(String[] args) {
+//        String password = "123456";
+//        password= DigestUtils.md5DigestAsHex(password.getBytes());
+//        System.out.println(password);
+//    }
 }
