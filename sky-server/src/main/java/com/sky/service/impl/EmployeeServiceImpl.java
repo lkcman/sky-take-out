@@ -126,7 +126,8 @@ public class EmployeeServiceImpl implements EmployeeService {
          updataemployee.setId(id);
 
          updataemployee.setStatus(status);
-
+         updataemployee.setUpdateTime(LocalDateTime.now());
+         updataemployee.setUpdateUser(BaseContext.getCurrentId());
          employeeMapper.update(updataemployee);
     }
 
