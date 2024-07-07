@@ -42,4 +42,8 @@ public class Employee implements Serializable {
 
     private Long updateUser;
 
+    //%03d 来填充数字
+//    public static void main(String[] args) {
+//        System.out.println(String.format("Employee%03d",2));
+//    }
 }
