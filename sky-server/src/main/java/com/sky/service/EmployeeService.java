@@ -22,4 +22,10 @@ public interface EmployeeService {
     PageResult pageQuery(EmployeePageQueryDTO edto);
 
     void startOrStop(Integer status, Long id);
+    /**
+     * 通过id查询员工信息
+     * @param id
+     * @return
+     */
+    Employee getById(Long id);
 }

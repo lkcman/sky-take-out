@@ -12,6 +12,7 @@ import com.sky.dto.EmployeePageQueryDTO;
 import com.sky.entity.Employee;
 import com.sky.exception.AccountLockedException;
 import com.sky.exception.AccountNotFoundException;
+import com.sky.exception.BaseException;
 import com.sky.exception.PasswordErrorException;
 import com.sky.mapper.EmployeeMapper;
 import com.sky.result.PageResult;
@@ -25,6 +26,7 @@ import org.springframework.util.ObjectUtils;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 @Slf4j
 @Service
@@ -118,7 +120,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         return new PageResult(total,result);
 
     }
-
+//禁用
     @Override
     public void startOrStop(Integer status, Long id) {
         Employee updataemployee = new Employee();
@@ -129,6 +131,26 @@ public class EmployeeServiceImpl implements EmployeeService {
          updataemployee.setUpdateTime(LocalDateTime.now());
          updataemployee.setUpdateUser(BaseContext.getCurrentId());
          employeeMapper.update(updataemployee);
+    }
+    /**
+     * 通过id查询员工信息
+     * @param id
+     * @return
+     */
+    @Override
+    public Employee getById(Long id) {
+
+        Employee employee=employeeMapper.selectById(id);
+        if (null == employee) {
+            throw  new BaseException("员工信息不存在");
+        }
+        //设置密码为空
+        employee.setPassword(null);
+
+        return employee;
+
+
+
     }
 
 
