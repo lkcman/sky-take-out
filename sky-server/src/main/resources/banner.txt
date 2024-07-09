@@ -1,0 +1,22 @@
+                       ${AnsiColor.BRIGHT_RED}_ooOoo_                       ${AnsiColor.BRIGHT_RED}
+                      ${AnsiColor.BRIGHT_RED}o8888888o                      ${AnsiColor.BRIGHT_RED}
+                      ${AnsiColor.BRIGHT_RED}88 ${AnsiColor.BRIGHT_RED}" . "${AnsiColor.BRIGHT_RED}88                      ${AnsiColor.BRIGHT_RED}
+                      (| -_- |)                      ${AnsiColor.BRIGHT_RED}
+                      ${AnsiColor.BLUE}O${AnsiColor.BRIGHT_YELLOW}\  =  /${AnsiColor.BLUE}O                      ${AnsiColor.BRIGHT_RED}
+                   ____/`---'\____                   ${AnsiColor.BRIGHT_RED}
+                 .'  \\|     |//  `.
+                 ${AnsiColor.BRIGHT_YELLOW}
+                /  \\|||  :  |||//  \                ${AnsiColor.BRIGHT_RED}
+               /  _||||| -:- |||||-  \               ${AnsiColor.BRIGHT_RED}
+               |   | \\\  -  /// |   |               ${AnsiColor.BRIGHT_RED}
+               | \_|  ''\---/''  |   |               ${AnsiColor.BRIGHT_RED}
+               \  .-\__  `-`  ___/-. /                ${AnsiColor.BRIGHT_RED}
+             ___`. .'  /--.--\  `. . __               ${AnsiColor.BRIGHT_RED}
+          ."" '<  `.___\_<|>_/___.'  >'"".           ${AnsiColor.BRIGHT_RED}
+         | | :  `- \`.;`\ _ /`;.`/ - ` : | |         ${AnsiColor.BRIGHT_RED}
+         \  \ `-.   \_ __\ /__ _/   .-` /  /          ${AnsiColor.BRIGHT_RED}
+    ${AnsiColor.BRIGHT_MAGENTA}====== ${AnsiColor.BRIGHT_RED}`-.____`-.___\_____/___.-`____.-'${AnsiColor.BRIGHT_MAGENTA}======
+                       `=---='
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ^        佛祖保佑             永无BUG        ^
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
