@@ -15,35 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "店铺相关接口")
 @Slf4j
 public class ShopController {
-//
-//    public static final String KEY = "SHOP_STATUS";
-//
-//    @Autowired
-//    private StringRedisTemplate stringredisTemplate;
-//
-//    /**
-//     * 设置店铺的营业状态
-//     * @param status
-//     * @return
-//     */
-//    @PutMapping("/{status}")
-//    @ApiOperation("设置店铺的营业状态")
-//    public Result setStatus(@PathVariable Integer status){
-//        log.info("设置店铺的营业状态为：{}",status == 1 ? "营业中" : "打烊中");
-//        stringredisTemplate.opsForValue().set(KEY,status.toString());
-//        return Result.success();
-//    }
-//
-//    /*
-//    获取店铺的营业状态
-//     */
-//    @GetMapping("/status")
-//    @ApiOperation("获取店铺的营业状态")
-//    public Result getShopStatus(){
-//        String status = stringredisTemplate.opsForValue().get(StatusConstant.);
-//        log.info("获取到店铺的营业状态为：{}",status);
-//        return Result.success(status);
-//    }
+
     public static final String KEY = "SHOP_STATUS";
 
     @Autowired
